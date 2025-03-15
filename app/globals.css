@@ -50,15 +50,15 @@
   }
 
   .pink_container {
-    @apply w-full bg-pink-500  min-h-[530px] flex justify-center items-center flex-col py-10 px-6;
+    @apply w-full bg-sky-600  min-h-[530px] flex justify-center items-center flex-col py-10 px-6;
   }
 
   .tag {
-    @apply bg-amber-500 px-6 py-3 font-sans font-bold rounded-sm uppercase relative mb-5;
+    @apply bg-red-700 px-6 py-3 font-sans font-bold rounded-sm uppercase relative mb-5;
   }
 
   .heading {
-    @apply uppercase rounded-bl-3xl rounded-tr-3xl bg-black px-6 py-3 font-sans font-bold text-white sm:text-[54px] sm:leading-[64px] text-[36px] leading-[46px] max-w-full text-center;
+    @apply uppercase rounded-lg  bg-pink-700 px-6 py-3 font-sans font-bold text-white sm:text-[52px] sm:leading-[60px] text-[32px] leading-[46px] max-w-full text-center;
   }
 
   .sub-heading {
@@ -87,7 +87,7 @@
   }
 
   .profile_card {
-    @apply w-80 px-6 pb-6 pt-20 flex flex-col justify-center items-center bg-pink-300 border-[5px] border-black shadow-md rounded-[30px] relative z-0 h-fit max-lg:w-full;
+    @apply w-80 px-6 pb-6 pt-20 flex flex-col justify-center items-center bg-sky-300 border-[5px] border-black shadow-md rounded-[30px] relative z-0 h-fit max-lg:w-full;
   }
 
   .profile_title {
@@ -135,11 +135,11 @@
 
   /* startupcard */
   .startup-card {
-    @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px] shadow-lg hover:border-pink-700 transition-all duration-500 hover:shadow-lg hover:bg-pink-200;
+    @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px] shadow-lg hover:border-sky-700 transition-all duration-500 hover:shadow-lg hover:bg-sky-200;
   }
 
   .startup-card_date {
-    @apply font-medium text-[16px] bg-pink-300 px-4 py-2 rounded-full group-hover:bg-white;
+    @apply font-medium text-[16px] bg-sky-300 px-4 py-2 rounded-full group-hover:bg-white;
   }
 
   .startup-card_desc {
@@ -184,7 +184,7 @@
   }
 
   .startup-form_btn {
-    @apply bg-pink-300 border-[4px] border-black rounded-full p-5 min-h-[70px] w-full font-bold text-[18px];
+    @apply bg-sky-300 border-[4px] border-black rounded-full p-5 min-h-[70px] w-full font-bold text-[18px];
   }
 
   /* view */
@@ -193,11 +193,11 @@
   }
 
   .view-text {
-    @apply font-medium text-[16px] bg-pink-300 px-4 py-2 rounded-lg capitalize;
+    @apply font-medium text-[16px] bg-sky-300 px-4 py-2 rounded-lg capitalize;
   }
 
   .category-tag {
-    @apply font-medium text-[16px] bg-pink-300 px-4 py-2 rounded-full;
+    @apply font-medium text-[16px] bg-sky-300 px-4 py-2 rounded-full;
   }
 
   .pattern {
@@ -214,7 +214,7 @@
   }
 
   .tag-tri {
-    @apply before:content-[''] before:absolute before:top-2 before:left-2 before:border-t-[10px] before:border-t-black before:border-r-[10px] before:border-r-transparent after:content-[''] after:absolute after:bottom-2 after:right-2 after:border-b-[10px] after:border-b-black after:border-l-[10px] after:border-l-transparent;
+    @apply before:content-[''] before:absolute before:top-2 before:left-2 before:border-t-[10px] before:border-t-white before:border-r-[10px] before:border-r-transparent after:content-[''] after:absolute after:bottom-2 after:right-2 after:border-b-[10px] after:border-b-white after:border-l-[10px] after:border-l-transparent;
   }
 }
 
